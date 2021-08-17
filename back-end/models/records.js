@@ -5,7 +5,6 @@ var Schema = mongoose.Schema;
 
 var records = new Schema({
 
-    _id:{type:String,require:true},
     key: {type:String, require:true},
     value:{type:String, require:true},
     createdAt:{type:Date, require:true},
